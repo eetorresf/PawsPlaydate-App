@@ -174,7 +174,7 @@ PawsPlaydate</string>
         <!--Home View Controller-->
         <scene sceneID="TRx-Qj-oly">
             <objects>
-                <viewController id="gfL-uh-nDy" customClass="HomeViewController" customModule="PawsPlaydate_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="gfL-uh-nDy" customClass="HomeViewController" customModule="PawsPlaydate_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1q4-5U-l0l">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

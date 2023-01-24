@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
 
@@ -24,7 +25,17 @@ class SignUpViewController: UIViewController {
     
 
     @IBAction func signUpButton_Clicked(_ sender: Any) {
-        self.performSegue(withIdentifier: "userSignedUpSegue", sender: nil)
+        let auth = Auth.auth()
+        
+        auth.createUser(withEmail: emailField.text!, password: passwordField.text!) { (authResult, error) in
+            if error != nil {
+                self.present(Services.createAlertController(title: "Error", message: error!.localizedDescription), animated: true, completion: nil)
+                return
+            }
+            self.performSegue(withIdentifier: "userSignedUpSegue", sender: nil)
+        }
+        
+        
     }
     
 }
