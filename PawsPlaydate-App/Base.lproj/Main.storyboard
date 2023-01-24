@@ -171,10 +171,10 @@ PawsPlaydate</string>
             </objects>
             <point key="canvasLocation" x="1810" y="-332"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="TRx-Qj-oly">
             <objects>
-                <viewController id="gfL-uh-nDy" sceneMemberID="viewController">
+                <viewController id="gfL-uh-nDy" customClass="HomeViewController" customModule="PawsPlaydate_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1q4-5U-l0l">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,11 +186,22 @@ PawsPlaydate</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAQ-if-WYm">
+                                <rect key="frame" x="158" y="762" width="78" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="logOutButton_Clicked:" destination="gfL-uh-nDy" eventType="touchUpInside" id="erR-Pi-KWn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RcW-jF-6F7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qy1-wo-bpe"/>
+                    <connections>
+                        <outlet property="welcomeInLabel" destination="fYi-X4-tmv" id="43c-qm-pGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xge-d1-Jrf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
