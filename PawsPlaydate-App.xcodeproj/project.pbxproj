@@ -20,6 +20,7 @@
 		99A49BD92980484A00BEFB3F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A49BD82980484A00BEFB3F /* SignInViewController.swift */; };
 		99A49BDB2980485800BEFB3F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A49BDA2980485800BEFB3F /* SignUpViewController.swift */; };
 		99A49BDE29804E3B00BEFB3F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A49BDD29804E3B00BEFB3F /* HomeViewController.swift */; };
+		99A49BE029804FCA00BEFB3F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A49BDF29804FCA00BEFB3F /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		99A49BD82980484A00BEFB3F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		99A49BDA2980485800BEFB3F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		99A49BDD29804E3B00BEFB3F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		99A49BDF29804FCA00BEFB3F /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				99A49BC12980400300BEFB3F /* Assets.xcassets */,
 				99A49BC32980400300BEFB3F /* LaunchScreen.storyboard */,
 				99A49BC62980400300BEFB3F /* Info.plist */,
+				99A49BDF29804FCA00BEFB3F /* Services.swift */,
 			);
 			path = "PawsPlaydate-App";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				99A49BDB2980485800BEFB3F /* SignUpViewController.swift in Sources */,
 				99A49BD72980483800BEFB3F /* WelcomeViewController.swift in Sources */,
 				99A49BB92980400100BEFB3F /* AppDelegate.swift in Sources */,
+				99A49BE029804FCA00BEFB3F /* Services.swift in Sources */,
 				99A49BD92980484A00BEFB3F /* SignInViewController.swift in Sources */,
 				99A49BBB2980400100BEFB3F /* SceneDelegate.swift in Sources */,
 				99A49BDE29804E3B00BEFB3F /* HomeViewController.swift in Sources */,
